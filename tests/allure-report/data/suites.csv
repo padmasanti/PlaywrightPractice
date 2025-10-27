@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","2985","screen size and screenshot test","","Thu Oct 23 20:07:32 PDT 2025","failed","Thu Oct 23 20:07:35 PDT 2025","","allurereporttest.spec.ts","",""

@@ -1,0 +1,318 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - main [ref=e2]:
+    - heading "Wikipedia The Free Encyclopedia" [level=1] [ref=e4]:
+      - generic [ref=e5]: Wikipedia
+      - strong [ref=e6]: The Free Encyclopedia
+    - navigation "Top languages" [ref=e7]:
+      - link "English 7,069,000+ articles" [ref=e9] [cursor=pointer]:
+        - /url: //en.wikipedia.org/
+        - strong [ref=e10]: English
+        - generic [ref=e11]: 7,069,000+ articles
+      - link "日本語 1,475,000+ 記事" [ref=e13] [cursor=pointer]:
+        - /url: //ja.wikipedia.org/
+        - strong [ref=e14]: 日本語
+        - generic [ref=e15]: 1,475,000+ 記事
+      - link "Русский 2 065 000+ статей" [ref=e17] [cursor=pointer]:
+        - /url: //ru.wikipedia.org/
+        - strong [ref=e18]: Русский
+        - generic [ref=e19]: 2 065 000+ статей
+      - link "Deutsch 3.056.000+ Artikel" [ref=e21] [cursor=pointer]:
+        - /url: //de.wikipedia.org/
+        - strong [ref=e22]: Deutsch
+        - generic [ref=e23]: 3.056.000+ Artikel
+      - link "Français 2 712 000+ articles" [ref=e25] [cursor=pointer]:
+        - /url: //fr.wikipedia.org/
+        - strong [ref=e26]: Français
+        - generic [ref=e27]: 2 712 000+ articles
+      - link "Español 2.065.000+ artículos" [ref=e29] [cursor=pointer]:
+        - /url: //es.wikipedia.org/
+        - strong [ref=e30]: Español
+        - generic [ref=e31]: 2.065.000+ artículos
+      - link "中文 1,503,000+ 条目 / 條目" [ref=e33] [cursor=pointer]:
+        - /url: //zh.wikipedia.org/
+        - strong [ref=e34]: 中文
+        - generic [ref=e35]: 1,503,000+ 条目 / 條目
+      - link "Italiano 1.938.000+ voci" [ref=e37] [cursor=pointer]:
+        - /url: //it.wikipedia.org/
+        - strong [ref=e38]: Italiano
+        - generic [ref=e39]: 1.938.000+ voci
+      - link "Polski 1 670 000+ haseł" [ref=e41] [cursor=pointer]:
+        - /url: //pl.wikipedia.org/
+        - strong [ref=e42]: Polski
+        - generic [ref=e43]: 1 670 000+ haseł
+      - link "Português 1.156.000+ artigos" [ref=e45] [cursor=pointer]:
+        - /url: //pt.wikipedia.org/
+        - strong [ref=e46]: Português
+        - generic [ref=e47]: 1.156.000+ artigos
+    - search [ref=e48]:
+      - group [ref=e50]:
+        - generic [ref=e51]:
+          - generic [ref=e52]: Search Wikipedia
+          - searchbox "Search Wikipedia" [active] [ref=e53]
+          - generic [ref=e55]:
+            - generic [ref=e56]: en
+            - combobox "en" [ref=e57] [cursor=pointer]:
+              - option "Afrikaans"
+              - option "Shqip"
+              - option "العربية"
+              - option "Asturianu"
+              - option "Azərbaycanca"
+              - option "Български"
+              - option "閩南語 / Bân-lâm-gú"
+              - option "বাংলা"
+              - option "Беларуская"
+              - option "Català"
+              - option "Čeština"
+              - option "Cymraeg"
+              - option "Dansk"
+              - option "Deutsch"
+              - option "Eesti"
+              - option "Ελληνικά"
+              - option "English" [selected]
+              - option "Español"
+              - option "Esperanto"
+              - option "Euskara"
+              - option "فارسی"
+              - option "Français"
+              - option "Galego"
+              - option "한국어"
+              - option "Հայերեն"
+              - option "हिन्दी"
+              - option "Hrvatski"
+              - option "Bahasa Indonesia"
+              - option "Italiano"
+              - option "עברית"
+              - option "ქართული"
+              - option "Ladin"
+              - option "Latina"
+              - option "Latviešu"
+              - option "Lietuvių"
+              - option "Magyar"
+              - option "Македонски"
+              - option "Malagasy"
+              - option "मराठी"
+              - option "مصرى"
+              - option "Bahasa Melayu"
+              - option "Bahaso Minangkabau"
+              - option "မြန်မာဘာသာ"
+              - option "Nederlands"
+              - option "日本語"
+              - option "Norsk (bokmål)"
+              - option "Norsk (nynorsk)"
+              - option "Нохчийн"
+              - option "Oʻzbekcha / Ўзбекча"
+              - option "Polski"
+              - option "Português"
+              - option "Қазақша / Qazaqşa / قازاقشا"
+              - option "Română"
+              - option "Simple English"
+              - option "Sinugboanong Binisaya"
+              - option "Slovenčina"
+              - option "Slovenščina"
+              - option "Српски / Srpski"
+              - option "Srpskohrvatski / Српскохрватски"
+              - option "Suomi"
+              - option "Svenska"
+              - option "Kiswahili"
+              - option "தமிழ்"
+              - option "Татарча / Tatarça"
+              - option "తెలుగు"
+              - option "ภาษาไทย"
+              - option "Тоҷикӣ"
+              - option "تۆرکجه"
+              - option "Türkçe"
+              - option "Українська"
+              - option "اردو"
+              - option "Tiếng Việt"
+              - option "Winaray"
+              - option "中文"
+              - option "Русский"
+              - option "粵語"
+        - button "Search" [ref=e59] [cursor=pointer]:
+          - generic [ref=e60]: Search
+    - navigation "All languages" [ref=e61]:
+      - button "Read Wikipedia in your language" [ref=e63] [cursor=pointer]: Read Wikipedia in your language
+    - separator [ref=e67]
+    - generic:
+      - generic:
+        - generic [ref=e68]:
+          - button "minimize" [ref=e69] [cursor=pointer]:
+            - img [ref=e71]
+          - link "Donate now" [ref=e75] [cursor=pointer]:
+            - /url: https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalBanner&wmf_source=portalBanner_en6C_2526_1006_Control&uselang=en
+          - generic [ref=e76]:
+            - generic [ref=e77]:
+              - generic [ref=e78]: You deserve an explanation.
+              - paragraph [ref=e79]: An important update for readers in the United States.
+              - paragraph [ref=e80]: Please don't skip this 1-minute read. Today we're running a short fundraiser to support Wikipedia. If you've lost count of how many times you've visited Wikipedia this year, we hope that means it's given you at least $2.75 of knowledge. If so, please join the 2% of readers who give to keep this resource available for all.
+              - paragraph [ref=e81]: After nearly 25 years, Wikipedia is still the internet we were promised—created by people, not by machines. It's not perfect, but it's not here to push a point of view. It's owned by a non-profit, not a giant technology company or a billionaire.
+              - paragraph [ref=e82]: Most readers donate because Wikipedia is useful to them, others because Wikipedia is more important than ever. If you feel the same, please donate $2.75 today—or consider a monthly gift to help all year. Thank you.
+            - generic [ref=e83]:
+              - generic [ref=e84]:
+                - generic [ref=e85]: Please select an amount ($)
+                - text: .
+                - generic [ref=e86]: The average donation in the United States is around $13. Many first-time donors give $2.75. All that matters is that you're choosing to stand up for free, open information; and for that, you have our gratitude.
+              - generic [ref=e87]:
+                - generic [ref=e88] [cursor=pointer]:
+                  - radio "$2.75" [ref=e89]
+                  - generic [ref=e90]: $2.75
+                - generic [ref=e91] [cursor=pointer]:
+                  - radio "$ 5" [ref=e92]
+                  - generic [ref=e93]: $
+                  - text: "5"
+                - generic [ref=e94] [cursor=pointer]:
+                  - radio "$ 10" [ref=e95]
+                  - generic [ref=e96]: $
+                  - text: "10"
+                - generic [ref=e97] [cursor=pointer]:
+                  - radio "$ 20" [ref=e98]
+                  - generic [ref=e99]: $
+                  - text: "20"
+                - generic [ref=e100] [cursor=pointer]:
+                  - radio "$ 30" [ref=e101]
+                  - generic [ref=e102]: $
+                  - text: "30"
+                - generic [ref=e103] [cursor=pointer]:
+                  - radio "$ 50" [ref=e104]
+                  - generic [ref=e105]: $
+                  - text: "50"
+                - generic [ref=e106] [cursor=pointer]:
+                  - radio "$ 100" [ref=e107]
+                  - generic [ref=e108]: $
+                  - text: "100"
+                - generic [ref=e109] [cursor=pointer]:
+                  - radio "Other" [ref=e110]
+                  - text: Other
+            - generic [ref=e111]:
+              - generic [ref=e112]: How often would you like to donate?
+              - generic [ref=e113]:
+                - generic [ref=e114] [cursor=pointer]:
+                  - radio "One time" [ref=e115]
+                  - text: One time
+                - generic [ref=e116] [cursor=pointer]:
+                  - radio "Give monthly" [ref=e117]
+                  - text: Give monthly
+            - link "Donate now" [ref=e118] [cursor=pointer]:
+              - /url: https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalBanner&wmf_source=portalBanner_en6C_2526_1006_Control&uselang=en
+            - generic [ref=e119]:
+              - generic [ref=e120]:
+                - img [ref=e121]
+                - text: "We ask you, sincerely: don't skip this, join the 2% of readers who give."
+              - generic [ref=e125]:
+                - img "Wikimedia Foundation Logo" [ref=e126]
+                - text: Proud host of Wikipedia and its sister sites
+              - button "Collapse" [ref=e127] [cursor=pointer]
+        - generic [ref=e129] [cursor=pointer]:
+          - generic [ref=e130]:
+            - heading "The internet we were promised" [level=3] [ref=e131]:
+              - img [ref=e132]
+              - text: The internet we were promised
+            - paragraph [ref=e136]: After nearly 25 years, Wikipedia is still the internet we were promised— an oasis of free and collaborative knowledge. Today, we ask you to join the 2% of readers who support this space. If everyone reading this right now gave just $2.75, we'd reach our goal quickly.
+            - paragraph [ref=e137]:
+              - text: —
+              - emphasis [ref=e138]: The Wikimedia Foundation, host of Wikipedia and its sister sites
+              - text: .
+          - link "Donate now" [ref=e140]:
+            - /url: https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalBanner&wmf_source=portalBanner_en6C_2526_1006_Control&uselang=en
+  - contentinfo [ref=e141]:
+    - generic [ref=e143]:
+      - generic [ref=e145]: Wikipedia is hosted by the Wikimedia Foundation, a non-profit organization that also hosts a range of other projects.
+      - link "You can support our work with a donation." [ref=e147] [cursor=pointer]:
+        - /url: https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalFooter&wmf_source=portalFooter
+    - generic [ref=e150]:
+      - strong [ref=e152]:
+        - link "Download Wikipedia for Android or iOS" [ref=e153] [cursor=pointer]:
+          - /url: https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications
+      - paragraph [ref=e154]: Save your favorite articles to read offline, sync your reading lists across devices and customize your reading experience with the official Wikipedia app.
+      - list [ref=e155]:
+        - listitem [ref=e156]:
+          - link "Google Play Store" [ref=e157] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=org.wikipedia&referrer=utm_source%3Dportal%26utm_medium%3Dbutton%26anid%3Dadmob
+            - generic [ref=e158]: Google Play Store
+        - listitem [ref=e159]:
+          - link "Apple App Store" [ref=e160] [cursor=pointer]:
+            - /url: https://itunes.apple.com/app/apple-store/id324715238?pt=208305&ct=portal&mt=8
+            - generic [ref=e161]: Apple App Store
+    - navigation "Other projects" [ref=e162]:
+      - link "Commons Free media collection" [ref=e164] [cursor=pointer]:
+        - /url: //commons.wikimedia.org/
+        - generic [ref=e167]:
+          - generic [ref=e168]: Commons
+          - generic [ref=e169]: Free media collection
+      - link "Wikivoyage Free travel guide" [ref=e171] [cursor=pointer]:
+        - /url: //www.wikivoyage.org/
+        - generic [ref=e174]:
+          - generic [ref=e175]: Wikivoyage
+          - generic [ref=e176]: Free travel guide
+      - link "Wiktionary Free dictionary" [ref=e178] [cursor=pointer]:
+        - /url: //www.wiktionary.org/
+        - generic [ref=e181]:
+          - generic [ref=e182]: Wiktionary
+          - generic [ref=e183]: Free dictionary
+      - link "Wikibooks Free textbooks" [ref=e185] [cursor=pointer]:
+        - /url: //www.wikibooks.org/
+        - generic [ref=e188]:
+          - generic [ref=e189]: Wikibooks
+          - generic [ref=e190]: Free textbooks
+      - link "Wikinews Free news source" [ref=e192] [cursor=pointer]:
+        - /url: //www.wikinews.org/
+        - generic [ref=e195]:
+          - generic [ref=e196]: Wikinews
+          - generic [ref=e197]: Free news source
+      - link "Wikidata Free knowledge base" [ref=e199] [cursor=pointer]:
+        - /url: //www.wikidata.org/
+        - generic [ref=e202]:
+          - generic [ref=e203]: Wikidata
+          - generic [ref=e204]: Free knowledge base
+      - link "Wikiversity Free learning resources" [ref=e206] [cursor=pointer]:
+        - /url: //www.wikiversity.org/
+        - generic [ref=e209]:
+          - generic [ref=e210]: Wikiversity
+          - generic [ref=e211]: Free learning resources
+      - link "Wikiquote Free quote compendium" [ref=e213] [cursor=pointer]:
+        - /url: //www.wikiquote.org/
+        - generic [ref=e216]:
+          - generic [ref=e217]: Wikiquote
+          - generic [ref=e218]: Free quote compendium
+      - link "MediaWiki Free & open wiki software" [ref=e220] [cursor=pointer]:
+        - /url: //www.mediawiki.org/
+        - generic [ref=e223]:
+          - generic [ref=e224]: MediaWiki
+          - generic [ref=e225]: Free & open wiki software
+      - link "Wikisource Free content library" [ref=e227] [cursor=pointer]:
+        - /url: //www.wikisource.org/
+        - generic [ref=e230]:
+          - generic [ref=e231]: Wikisource
+          - generic [ref=e232]: Free content library
+      - link "Wikispecies Free species directory" [ref=e234] [cursor=pointer]:
+        - /url: //species.wikimedia.org/
+        - generic [ref=e237]:
+          - generic [ref=e238]: Wikispecies
+          - generic [ref=e239]: Free species directory
+      - link "Wikifunctions Free function library" [ref=e241] [cursor=pointer]:
+        - /url: //www.wikifunctions.org/
+        - generic [ref=e244]:
+          - generic [ref=e245]: Wikifunctions
+          - generic [ref=e246]: Free function library
+      - link "Meta-Wiki Community coordination & documentation" [ref=e248] [cursor=pointer]:
+        - /url: //meta.wikimedia.org/
+        - generic [ref=e251]:
+          - generic [ref=e252]: Meta-Wiki
+          - generic [ref=e253]: Community coordination & documentation
+    - separator [ref=e254]
+    - paragraph [ref=e255]:
+      - generic [ref=e256]:
+        - text: This page is available under the
+        - link "Creative Commons Attribution-ShareAlike License" [ref=e257] [cursor=pointer]:
+          - /url: https://creativecommons.org/licenses/by-sa/4.0/
+        - text: •
+      - generic [ref=e258]:
+        - link "Terms of Use" [ref=e259] [cursor=pointer]:
+          - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use
+        - text: •
+      - link "Privacy Policy" [ref=e261] [cursor=pointer]:
+        - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+```

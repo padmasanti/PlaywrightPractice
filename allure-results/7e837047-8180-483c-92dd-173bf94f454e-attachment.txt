@@ -1,0 +1,2 @@
+Login unsuccessful with user: locked_out_user
+Error message: Epic sadface: Sorry, this user has been locked out.

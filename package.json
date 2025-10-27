@@ -1,0 +1,50 @@
+{
+  "name": "pw_practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^24.7.0",
+    "@typescript-eslint/eslint-plugin": "^8.46.2",
+    "@typescript-eslint/parser": "^8.46.2",
+    "eslint": "^9.38.0",
+    "eslint-plugin-playwright": "^2.2.2",
+    "playwright": "^1.56.0"
+  },
+  "dependencies": {
+    "playwright-extra": "^4.3.6",
+    "xlsx": "^0.18.5"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "browser": true,
+      "es6": true,
+      "node": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:playwright/recommended",      
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended"
+    ],
+    "plugins": [
+      "playwright", "@typescript-eslint"
+    ],
+    "rules": {
+      "playwright/no-skipped-tests": "warn",
+      "playwright/no-focused-tests": "error",
+      "playwright/no-page-pause": "warn",
+      "playwright/expect-expect": "error",
+      "@typescript-eslint/no-unused-vars": "warn",
+      "@typescript-eslint/explicit-function-return-type": "error"
+    },
+    "parser": "@typescript-eslint/parser"
+    
+  }
+}
